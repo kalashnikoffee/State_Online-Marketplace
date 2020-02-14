@@ -13,7 +13,7 @@ function PageContainer(){
     return (
         <div>
             <Router>
-                <NavBar>
+                <NavBar />
                     <Switch>
                     <Route exact path="/" component={Home} />
                     <Route />
@@ -21,7 +21,6 @@ function PageContainer(){
                     <Route />
                     <Route />
                     </Switch>
-                </NavBar>
             </Router>
         </div>
     )
