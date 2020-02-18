@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from "react";
 import { useCartContext } from "../utils/CartState";
-import { useProductsContext } from "../utils/ProductsState";
+import { useProductsContext } from "../utils/ProductState";
 import API from "../utils/API";
 import Product from "../components/Product";
 import axios from "axios";
